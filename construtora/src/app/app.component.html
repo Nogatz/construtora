@@ -1,15 +1,27 @@
 <ion-app>
   <ion-split-pane>
-    <ion-menu type="overlay">
-      <ion-header>
-        <ion-toolbar>
-          <ion-title>Menu</ion-title>
-        </ion-toolbar>
+    <ion-menu  type="overlay">
+      <ion-header class="inner-scroll" >
+        <span><img class="logo" src="../assets/image/logo.png"></span>
+
+        <ion-row>
+            <ion-col>
+                <ion-text color="dark">
+                    <h5 class="titleh5">Olá, Edson</h5>
+                    <span>CORRETOR</span>
+                  </ion-text>
+            </ion-col>
+            <ion-col>
+                <ion-icon name="log-out"></ion-icon>
+              SAIR
+            </ion-col>
+          </ion-row>
+       
       </ion-header>
-      <ion-content>
-        <ion-list >
-          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
-            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+      <ion-content >
+        <ion-list  >
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages" >
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" >
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
               <ion-label> 
                 {{p.title}}
