@@ -3,11 +3,49 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>
+      <ion-title class="titlepg">
         Institucional 
       </ion-title>
     </ion-toolbar>
   </ion-header>
 <ion-content>
-
+    <ion-list>
+        <ion-list-header>Escolha um empreendimento</ion-list-header>
+        <ion-item>
+          <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+            <ion-select-option value="brown">Prontos para morar</ion-select-option>
+            <ion-select-option value="blonde">Em construção</ion-select-option>
+            <ion-select-option value="black">Lançamento</ion-select-option>
+            <ion-select-option value="red">Pré-lançamento</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <ion-row>
+          <ion-col>
+              <span><img class="empreendimento" src="../assets/image/img01.jpg"></span>
+          </ion-col>
+      </ion-row>   
+      <ion-row>
+          <ion-col class="boxempreendimento">   
+            <ion-text>
+              <p class="emp-cidade"><span>Itapema</span>// Meia Praia</p>
+              <h6 class="emp-titulo">QUATRO ILHAS E PRAIA DA FERRUGEM</h6>
+              <p class="emp-endereco">Rua 253  - Quadra mar</p> 
+            </ion-text>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="removeressaclasse">
+                <span><img class="empreendimento" src="../assets/image/img01.jpg"></span>
+            </ion-col>
+        </ion-row>   
+        <ion-row>
+            <ion-col class="boxempreendimento">   
+              <ion-text>
+                <p class="emp-cidade"><span>Itapema</span>// Meia Praia</p>
+                <h6 class="emp-titulo">QUATRO ILHAS E PRAIA DA FERRUGEM</h6>
+                <p class="emp-endereco">Rua 253  - Quadra mar</p> 
+              </ion-text>
+            </ion-col>
+          </ion-row>   
 </ion-content>
