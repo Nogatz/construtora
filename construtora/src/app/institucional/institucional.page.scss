@@ -1,8 +1,19 @@
-.titlepg{
+.titlepg
+{
     background-color:#d12226;
     color: #FFF;
 }
-.boxempreendimento{
+ion-header
+{
+    --ion-background-color: #D12226;
+}
+ion-menu-button
+{
+        color: #FFF;
+}
+
+.boxempreendimento
+{
     background: #FFF;
     position: relative;
     top: -120px;
