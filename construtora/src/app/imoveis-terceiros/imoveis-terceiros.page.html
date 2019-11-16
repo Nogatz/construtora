@@ -1,14 +1,54 @@
 <ion-header>
-    <ion-toolbar>
-      <ion-buttons slot="start">
-        <ion-menu-button></ion-menu-button>
-      </ion-buttons>
-      <ion-title>
-        Imóveis terceiros
-      </ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="titlepg">
+      Imoveis de terceiros
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 
 <ion-content>
-Aqui conteudo de imóveis de terceiros
+  <ion-row>
+      <ion-col size="12">
+          <ion-select placeholder="Ver todos" class="inputempreendimentoselect">
+              <ion-select-option value="tecnico">Ver todos</ion-select-option>
+              <ion-select-option value="rh">Prontos para morar</ion-select-option>
+              <ion-select-option value="comercial">Em construção</ion-select-option>
+              <ion-select-option value="vendas">Lançamento</ion-select-option>
+              <ion-select-option value="suporte">Pré-lançamento</ion-select-option>
+          </ion-select>
+      </ion-col>
+  </ion-row>
+  <ion-row class="itememp">
+      <div routerLink="/imovel-terceiro" class="linkempreendimento">
+        <ion-col size="12">
+            <span><img class="empreendimentoimg" src="../assets/image/emp1.jpg"></span>
+            <p class="statusemp">Lançamento</p>
+        </ion-col>
+        <ion-col size="12">
+            <div class="textoemp">
+                <h6 class="textoempcity"><span class="spancity">Balneário Camboriú</span> // Frente para o mar</h6>
+                <h4 class="textoempnome"><b>YACHTHOUSE</b></h4>
+                <h6 class="textoempend">Av. Normando Tedesco, nº 1333</h6>
+            </div>
+        </ion-col>
+      </div>
+  </ion-row>
+  <ion-row class="itememp">
+      <div routerLink="/imovel-terceiro" class="linkempreendimento">
+        <ion-col size="12">
+            <span><img class="empreendimentoimg" src="../assets/image/emp1.jpg"></span>
+            <p class="statusemp">Lançamento</p>
+        </ion-col>
+        <ion-col size="12">
+            <div class="textoemp">
+                <h6 class="textoempcity"><span class="spancity">Balneário Camboriú</span> // Frente para o mar</h6>
+                <h4 class="textoempnome"><b>YACHTHOUSE</b></h4>
+                <h6 class="textoempend">Av. Normando Tedesco, nº 1333</h6>
+            </div>
+        </ion-col>
+      </div>
+  </ion-row>
 </ion-content>

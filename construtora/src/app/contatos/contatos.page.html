@@ -3,12 +3,69 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>
+      <ion-title class="titlepg">
         Contatos 
       </ion-title>
     </ion-toolbar>
   </ion-header>
 
 <ion-content>
-pagina de contatos
+
+    <ion-row>
+        <ion-col size="12">
+            <h4 class="textocontato">Fale Conosco</h4>
+            <h6 class="textocontatoex">Preencha o formulário fornecido nesta página e entraremos em contato.</h6>
+        </ion-col>
+        <ion-col size="12">
+            <ion-input type="text" class="inputcontato" name="nome" placeholder="Nome"></ion-input>
+            <ion-input type="email" class="inputcontato" name="email" placeholder="E-mail"></ion-input>
+            <ion-input type="number" class="inputcontato" name="telefone" placeholder="Telefone"></ion-input>
+            <ion-select placeholder="Setor" class="inputcontatoselect">
+                <ion-select-option value="rh">Rh</ion-select-option>
+                <ion-select-option value="comercial">Comercial</ion-select-option>
+                <ion-select-option value="tecnico">Técnico</ion-select-option>
+                <ion-select-option value="vendas">Vendas</ion-select-option>
+                <ion-select-option value="suporte">Suporte</ion-select-option>
+                <ion-select-option value="outros">Outros</ion-select-option>
+            </ion-select>
+            <ion-textarea  name="mensagem" class="inputcontato" clearOnEdit="true" placeholder="Mensagem"></ion-textarea>
+            <button class="buttoncontato" ion-button (click)="enviaContato()">ENVIAR</button>
+        </ion-col>
+    </ion-row>
+    <hr>
+    <ion-row>
+        <ion-col size="12">
+            <h4 class="textocontato">Onde estamos</h4>
+        </ion-col>
+        <ion-col size="12">
+            <h6 class="contatotitulo">Plantão de Vendas</h6>
+            <p class="contatotitulonome">YATCHHOUSE BY PIFINARINA</p> 
+            <p class="contatotel">Fone: +55 47 3267.0100</p>
+            <p class="contatoemail">E-mail:recepcao@pasqualottogt.com.br</p>
+            <p class="contatoende1">Av. Normando Tedesco, nº 1333, sala 01,</p>
+            <p class="contatoende2">Torre São Francisco</p>
+            <p class="contatoende3">Barra Sul, Balneário Camboriú - SC</p>
+        </ion-col>
+        <ion-col size="12">
+          <h6 class="contatotitulo">Plantão de Vendas</h6>
+          <p class="contatotitulonome">LA CITTÀ BY PINIFARINA</p> 
+          <p class="contatotel">Fone: +55 47 3368.0209</p>
+          <p class="contatoemail">E-mail:lacitta@pasqualottogt.com.br</p>
+          <p class="contatoende1">Av. Do Estado, nº 3351</p>
+          <p class="contatoende3">Centro, Balneário Camboriú - SC</p>
+      </ion-col>
+      <ion-col size="12">
+        <h6 class="contatotitulo">Escritório Central</h6>
+        <p class="contatotitulonome">ADMINISTRATIVO</p> 
+        <p class="contatotel">Fone: +55 47 3368.0209</p>
+        <p class="contatoemail">E-mail:jacitta@pasqualottogt.com.br</p>
+        <p class="contatoende1">Av. Do Estado, nº 3351,</p>
+        <p class="contatoende3">Centro, Balneário Camboriú - SC</p>
+    </ion-col>
+</ion-row>
+<ion-row>
+    <ion-col size="12">
+      <span class="espacofinal"></span>
+    </ion-col>
+</ion-row>
 </ion-content>

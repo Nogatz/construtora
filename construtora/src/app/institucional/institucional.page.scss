@@ -2,14 +2,55 @@
 {
     background-color:#d12226;
     color: #FFF;
+    font-family: 'FontePasqualotto', Arial;
 }
 ion-header
 {
     --ion-background-color: #D12226;
+    font-family: 'FontePasqualotto', Arial;
 }
 ion-menu-button
 {
         color: #FFF;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+.aspas1{
+    width: 50%;
+    margin-top: 40%;
+    margin-left: 17%;
+}
+.aspas2{
+    width: 50%;
+    //margin-top: 40%;
+    margin-right: 17%;
+    margin-top: -10px;
+}
+.textoinstitucional{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: -18px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'FontePasqualotto', Arial;
+}
+.textolongoinstitucional{
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 24px;
+    text-align: left;
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+}
+
+.textocopy{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    color: #a9a4a4;
+    font-size: 17px;
+    font-family: 'FontePasqualotto', Arial;
 }
 
 .boxempreendimento
@@ -30,9 +71,3 @@ ion-menu-button
 .emp-cidade span{
     color: #D12226
 } 
-.emp-titulo{
-
-}
-.emp-endereco{
-
-}

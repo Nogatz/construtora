@@ -2,31 +2,32 @@
   <ion-split-pane>
     <ion-menu  type="overlay">
       <ion-header class="inner-scroll" >
-        <span><img class="logo" src="../assets/image/logo.png"></span>
+        <span><img class="logo" src="../assets/image/logo_menu.png"></span>
 
         <ion-row>
-            <ion-col>
-                <ion-text color="dark">
-                    <h5 class="titleh5">Olá, Edson</h5>
-                    <span>CORRETOR</span>
-                  </ion-text>
+            <ion-col size="6">
+                <ion-text class="nomecorretor">
+                    <h5 class="titleh5">Olá, Rebeca</h5>
+                    <span class="titlespan">CORRETORA</span>
+                </ion-text>
             </ion-col>
-            <ion-col>
-                <ion-icon name="log-out"></ion-icon>
-              SAIR
+            <ion-col size="6">
+              <a href="">
+                <ion-icon class="logouticon" name="log-out"></ion-icon>
+                <span class="sair">sair</span>
+              </a>
             </ion-col>
-          </ion-row>
+        </ion-row>
        
       </ion-header>
       <ion-content >
-        <ion-list  >
+        <ion-list class="topomenu" >
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages" >
-            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" >
-              <ion-icon slot="start" [name]="p.icon"></ion-icon>
+            <h6 class="h6menu" [routerDirection]="'root'" [routerLink]="[p.url]" >
               <ion-label> 
-                {{p.title}}
+                <b>{{p.title}}</b>
               </ion-label>
-            </ion-item>
+            </h6>
           </ion-menu-toggle>
         </ion-list>
       </ion-content>

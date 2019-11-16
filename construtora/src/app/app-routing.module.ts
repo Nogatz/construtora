@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'entrada',
     pathMatch: 'full'
   },
   {
@@ -19,7 +19,11 @@ const routes: Routes = [
   { path: 'institucional', loadChildren: './institucional/institucional.module#InstitucionalPageModule' },
   { path: 'empreendimentos', loadChildren: './empreendimentos/empreendimentos.module#EmpreendimentosPageModule' },
   { path: 'imoveis-terceiros', loadChildren: './imoveis-terceiros/imoveis-terceiros.module#ImoveisTerceirosPageModule' },
-  { path: 'contatos', loadChildren: './contatos/contatos.module#ContatosPageModule' }
+  { path: 'contatos', loadChildren: './contatos/contatos.module#ContatosPageModule' },
+  { path: 'empreendimento', loadChildren: './empreendimento/empreendimento.module#EmpreendimentoPageModule' },
+  { path: 'imovel-terceiro', loadChildren: './imovel-terceiro/imovel-terceiro.module#ImovelTerceiroPageModule' },
+  { path: 'entrada', loadChildren: './entrada/entrada.module#EntradaPageModule' }
+
 ];
 
 @NgModule({

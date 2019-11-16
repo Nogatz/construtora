@@ -4,18 +4,58 @@
 // styles are for the entire app and not just one component. Additionally, this 
 // file can hold Sass mixins, functions, and placeholder classes to be imported 
 // and used throughout the application.
+@font-face {
+    font-family: 'FontePasqualotto';
+    src: 
+         url('../assets/fonts/MinionPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/MinionPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  }
+
+$font-family-base: "FontePasqualotto", Arial !default;
 
 .inner-scroll {
-    background-color:#d12226  !important;
+   // background-color:#d12226  !important;
 }
 .titleh5{
-    color: #FFF !important;
+    color: #969696 !important;
+    margin-top: 0px;
+    font-family: 'FontePasqualotto', Arial;
 }
 .logo{
-    padding: 73px 114px 82px 49px;
+    padding: 62px 56px 82px 49px;
 }
-ion-menu{
-    ion-content{
-        --ion-background-color:#d12226
-    }
+.logouticon{
+    float: right;
+    float: right;
+    font-size: 28px;
+    margin-right: 8%;
+    color: #969696 !important;
+}
+.sair{
+    float: right;
+    margin-right: 6%;
+    margin-top: 3%;
+    color: #969696 !important;
+    font-family: 'FontePasqualotto', Arial;
+}
+.topomenu{
+    margin-top: 30px;
+}
+.titlespan{
+    font-size: 14px;
+    color: #bebebe;
+    font-family: 'FontePasqualotto', Arial;
+    float: right;
+}
+.nomecorretor{
+    margin-left: 10%;
+    float: right;
+}
+
+.h6menu{
+    text-align: left;
+    border-top: .5px solid #bebebe;
+    padding: 20px 10px 4px 40px;
+    font-size: 20px;
+    font-family: 'FontePasqualotto', Arial;
 }

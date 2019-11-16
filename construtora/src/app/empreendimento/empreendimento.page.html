@@ -1,0 +1,196 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="titlepg">
+        Empreendimento
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <ion-row class="itememp">
+          <ion-col size="12">
+              <span><img class="empreendimentoimg" src="../assets/image/emp1.jpg"></span>
+          </ion-col>
+    </ion-row>
+    <ion-row class="itememp">
+          <ion-col size="6">
+              <div class="videoemp">
+                <a href=""><img class="empreendimentoimg" src="../assets/image/yatch.png"></a>
+              </div>
+          </ion-col>
+          <ion-col size="6">
+              <ion-text color="dark">
+                  <h4 class="h4empdestaque1">Frente para o mar</h4>
+                  <h6 class="h6empdestaque2">Av. Normando Tedesco, nº 1333</h6>
+                </ion-text>
+        </ion-col>
+    </ion-row>
+    <ion-row class="itememp">
+        <ion-col size="12">
+            <ion-text color="dark">
+                <h6 class="h6empdestaque3">Conceito único, design surpreendente, em um dos desejos mais desejados do país!</h6>
+              </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="itememp">
+      <ion-col size="12">
+          <ion-text color="dark">
+              <div class="itemAccordingList">
+                  <button ion-button class="h4carcteristicas" (click)="openClass()">Caracteristicas <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+                  <p [class]="mostrartexto">
+                    Um ícone do design italiano emoldurado pelas belezas de Balneário Camboriú<br>
+                    * Duas torres com 2 apartamentos por andar. 4 suítes, sendo 1 master + dependência de empregada;<br>
+                    * Anexo a uma das mais importantes marinas no Brasil.<br>
+                    * Vista panorâmica para a praia, a interpraias e a marina Tedesco.<br>
+                    * 5 elevadores por torre com velocidade de 6m por segundo<br>
+                    * Revestimento do edifício em vidro<br>
+                    * 2 helipontos homologados   
+                  </p>
+              </div>
+              <div class="itemAccordingList">
+                  <button ion-button class="h4carcteristicas" (click)="openClass2()">O Empreendimento <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+                  <p [class]="mostrartexto2">
+                    Um ícone do design italiano emoldurado pelas belezas de Balneário Camboriú<br>
+                    * Duas torres com 2 apartamentos por andar. 4 suítes, sendo 1 master + dependência de empregada;<br>
+                    * Anexo a uma das mais importantes marinas no Brasil.<br>
+                    * Vista panorâmica para a praia, a interpraias e a marina Tedesco.<br>
+                    * 5 elevadores por torre com velocidade de 6m por segundo<br>
+                    * Revestimento do edifício em vidro<br>
+                    * 2 helipontos homologados   
+                  </p>
+              </div>
+              <div class="itemAccordingList">
+                  <button ion-button class="h4carcteristicas" (click)="openClass3()">Área de lazer <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+                  <p [class]="mostrartexto3">
+                    Um ícone do design italiano emoldurado pelas belezas de Balneário Camboriú<br>
+                    * Duas torres com 2 apartamentos por andar. 4 suítes, sendo 1 master + dependência de empregada;<br>
+                    * Anexo a uma das mais importantes marinas no Brasil.<br>
+                    * Vista panorâmica para a praia, a interpraias e a marina Tedesco.<br>
+                    * 5 elevadores por torre com velocidade de 6m por segundo<br>
+                    * Revestimento do edifício em vidro<br>
+                    * 2 helipontos homologados   
+                  </p>
+              </div>
+            </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <h2 class="porcentagemobra">52%</h2>
+      <h6 class="textoporcentagem">Andamento da obra</h6>
+    </ion-col>
+  </ion-row>
+  <ion-row class="progresso">
+      <ion-col size="12" >
+          <ion-text class="textobarra">Estrutura<span class="textobarranum">80%</span></ion-text>
+          <ion-progress-bar class="barraprogresso" value="0.8"></ion-progress-bar>
+      </ion-col>
+      <ion-col size="12">
+          <ion-text class="textobarra">Alvenari<span class="textobarranum">80%</span></ion-text>
+          <ion-progress-bar class="barraprogresso" value="0.8"></ion-progress-bar>
+      </ion-col>
+      <ion-col size="12">
+          <ion-text class="textobarra">Revestimento Interno<span class="textobarranum">20%</span></ion-text>
+          <ion-progress-bar class="barraprogresso" value="0.2"></ion-progress-bar>
+      </ion-col>
+      <ion-col size="12">
+          <ion-text class="textobarra">Revestimento Externo<span class="textobarranum">30%</span></ion-text>
+          <ion-progress-bar class="barraprogresso" value="0.3"></ion-progress-bar>
+      </ion-col>
+      <ion-col size="12">
+          <ion-text class="textobarra">Acabamentos<span class="textobarranum">10%</span></ion-text>
+          <ion-progress-bar class="barraprogresso" value="0.1"></ion-progress-bar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+          <ion-row>
+            <ion-col size="4">
+              <button ion-button class="galeriabotao" (click)="openTab1()">GALERIA <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+            </ion-col>
+            <ion-col size="4">
+              <button ion-button class="galeriabotao" (click)="openTab2()">PLANTAS <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+            </ion-col>  
+            <ion-col size="4">
+              <button ion-button class="galeriabotao" (click)="openTab3()">OBRAS <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+            </ion-col>
+          </ion-row>
+          <div [class]="mostrargaleria1">
+              <ion-slides pager="true">
+                  <ion-slide>
+                      <img class="empreendimentoimg" src="../assets/image/emp1.jpg">
+                  </ion-slide>
+                  <ion-slide>
+                      <img class="empreendimentoimg" src="../assets/image/3institucional.png">
+                  </ion-slide>
+              </ion-slides>
+          </div>
+          <div [class]="mostrargaleria2">
+              <ion-slides pager="true">
+                  <ion-slide>
+                      <img class="empreendimentoimg" src="../assets/image/3institucional.png">
+                  </ion-slide>
+                  <ion-slide>
+                      <img class="empreendimentoimg" src="../assets/image/emp1.jpg">
+                  </ion-slide>
+              </ion-slides>
+          </div>
+          <div [class]="mostrargaleria3">
+              <ion-slides pager="true">
+                  <ion-slide>
+                      <img class="empreendimentoimg" src="../assets/image/3institucional.png">
+                  </ion-slide>
+                  <ion-slide>
+                      <img class="empreendimentoimg" src="../assets/image/emp1.jpg">
+                  </ion-slide>
+              </ion-slides>
+          </div>
+        
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+          <h4 class="h4carcteristicas">Localização do empreendimento<span  class="seta"><img src="../assets/image/seta.png"></span></h4>
+          <h6 class="h6emplocal3">Avenida Normando Tedesco, 1333. Centro Balneário Camboriú - SC</h6>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <img class="empreendimentoimg" src="../assets/image/mapa.png">
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <h4 class="h4carcteristicas">Arquivos<span  class="seta">Selecionar</span></h4>
+            <h6 class="h6emplocal3">Avenida Normando Tedesco, 1333. Centro Balneário Camboriú - SC</h6>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <h6 class="tituloarquivo"><b>GALERIAS</b></h6>
+          <h4> <a href="" class="linkdownload"> <ion-icon name="archive"></ion-icon> Imagens da obra</a></h4><br>
+          <h4> <a href="" class="linkdownload" > <ion-icon name="archive"></ion-icon> Imagens 3D</a></h4>
+        </ion-col>
+        <ion-col size="12">
+          <h6 class="tituloarquivo"><b>TABELA DE VENDAS</b></h6>
+          <h4><a href="" class="linkdownload"> <ion-icon name="archive"></ion-icon> Tabela de disponibilidade</a></h4><br>
+        </ion-col>
+        <ion-col size="12">
+            <h6 class="tituloarquivo"><b>MATERIAL DE DIVULGAÇÃO</b></h6>
+            <h4><a href="" class="linkdownload"> <ion-icon name="archive"></ion-icon> Folde de apresentação</a></h4><br>
+          </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <span class="compartilharrodape"> Compartilhar 
+            <a href=""><ion-icon class="iconcompartilharrodape" name="logo-whatsapp"></ion-icon> </a> 
+            <a href=""><ion-icon class="iconcompartilharrodape" name="mail"></ion-icon></a>
+          </span>
+        </ion-col>
+      </ion-row>
+    
+</ion-content>
+
+

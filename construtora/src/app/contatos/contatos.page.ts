@@ -11,5 +11,10 @@ export class ContatosPage implements OnInit {
 
   ngOnInit() {
   }
+  
+  enviaContato(){
+    alert('contato enviado');
+  }
+  
 
 }

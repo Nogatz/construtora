@@ -1,0 +1,99 @@
+.titlepg
+{
+    background-color:#d12226;
+    color: #FFF;
+    font-family: 'FontePasqualotto', Arial;
+}
+ion-header
+{
+    --ion-background-color: #D12226;
+    font-family: 'FontePasqualotto', Arial;
+}
+ion-menu-button
+{
+        color: #FFF;
+}
+.textempreendimento{
+    padding: 10px 20px;
+}
+.h4empdestaque1{
+    font-family: 'FontePasqualotto', Arial;
+    font-size: 18px;
+    margin: 0px;
+}
+.h6empdestaque2{
+    font-family: 'FontePasqualotto', Arial;
+    font-size: 18px;
+    color: #bebebe;
+    padding: 0px;
+    margin: 0px;
+}
+.h6empdestaquecidade{
+    font-family: 'FontePasqualotto', Arial;
+    font-size: 18px;
+    color: #969696;
+    padding: 0px;
+    margin: 0px;
+}
+.h4valor{
+    font-family: 'FontePasqualotto', Arial;
+    font-size: 26px;
+    text-align: center;
+}   
+.displayclass{
+    display: none;
+}
+.displayclasstrue{
+    display: block;
+    color: #969696;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+.h4carcteristicas{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.tabledetalhes{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.tabledetalhes td{
+    width: 33%;
+    font-size: 14px;
+    color: #bebebe;
+    border: 1px solid;
+    padding: 5px;
+}
+.h6emplocal3{
+    font-family: 'FontePasqualotto', Arial;
+    color: #bebebe;
+    padding: 0px 23px;
+    font-size: 16px;
+}
+.tituloarquivo{
+    font-family: 'FontePasqualotto', Arial;
+    color: #bebebe;
+    margin-left: 5%;
+}
+.linkdownload{
+    text-decoration: none;
+    color:#969696;
+    font-size: 14px;
+    margin-left: 10%;
+}
+.galeriabotao{
+    font-family: 'FontePasqualotto', Arial;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    color: #969696;
+}
+.compartilharrodape{
+    font-family: 'FontePasqualotto', Arial;
+}
+.iconcompartilharrodape{
+    color: #D12226;
+    float: right;
+}

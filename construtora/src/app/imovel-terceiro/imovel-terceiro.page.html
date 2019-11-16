@@ -1,0 +1,127 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="titlepg">
+      Imóvel de teceiros
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="itememp">
+    <ion-col size="12">
+        <span><img class="terceiroimg" src="../assets/image/emp1.jpg"></span>
+    </ion-col>
+
+    <ion-col size="12">
+        <ion-text color="dark">
+          <div class="textempreendimento">
+            <h4 class="h4empdestaque1">Atlantic Paradise Towers - Apto 801 - Torre 6</h4>
+            <h6 class="h6empdestaque2">Av. Nereu Ramos, nº 5005</h6>
+            <h6 class="h6empdestaquecidade">Meia Praia - itapema / SC</h6>
+          </div>
+        </ion-text>
+    </ion-col>
+  </ion-row>  
+  <ion-row>
+    <ion-col size="12">
+        <ion-text color="dark">
+            <h4 class="h4valor">R$ 2.490.000,00</h4>
+        </ion-text>
+        <div class="itemAccordingList">
+            <button ion-button class="h4carcteristicas" (click)="openClass()">Condições de pagamento <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+            <p [class]="mostrartexto">
+              Entrada de 30% saldo em 24x<br>
+              A vista 5% de desconto<br> 
+            </p>
+        </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <table class="tabledetalhes">
+        <tr>
+          <td><ion-icon name="bed"></ion-icon><br>SUÍTES</td>
+          <td><ion-icon name="logo-model-s"></ion-icon><br>GARAGENS</td>
+          <td><ion-icon name="qr-scanner"></ion-icon><br>ÁREA PRIVATIVA</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>03</td>
+          <td>250m2</td>
+        </tr>
+      </table>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+        <div class="itemAccordingList">
+            <button ion-button class="h4carcteristicas" >Descrição <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+            <p [class]="mostrartexto">
+              Apartamento 801 - Torre 6, totalmente equipado e mobiliado. Pronto para você.
+            </p>
+        </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+        <div class="itemAccordingList">
+            <button ion-button class="h4carcteristicas" >Apartamento <span  class="seta"><img src="../assets/image/seta.png"></span></button>
+            <div [class]="mostrargaleria1">
+                <ion-slides pager="true">
+                    <ion-slide>
+                        <img class="empreendimentoimg" src="../assets/image/emp1.jpg">
+                    </ion-slide>
+                    <ion-slide>
+                        <img class="empreendimentoimg" src="../assets/image/3institucional.png">
+                    </ion-slide>
+                </ion-slides>
+            </div>
+        </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+      <ion-col>
+          <h4 class="h4carcteristicas">Localização do empreendimento<span  class="seta"><img src="../assets/image/seta.png"></span></h4>
+          <h6 class="h6emplocal3">Avenida Normando Tedesco, 1333. Centro Balneário Camboriú - SC</h6>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <img class="empreendimentoimg" src="../assets/image/mapa.png">
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <h4 class="h4carcteristicas">Arquivos<span  class="seta">Selecionar</span></h4>
+            <h6 class="h6emplocal3">Avenida Normando Tedesco, 1333. Centro Balneário Camboriú - SC</h6>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <h6 class="tituloarquivo"><b>GALERIAS</b></h6>
+          <h4> <a href="" class="linkdownload"> <ion-icon name="archive"></ion-icon> Imagens da obra</a></h4><br>
+          <h4> <a href="" class="linkdownload" > <ion-icon name="archive"></ion-icon> Imagens 3D</a></h4>
+        </ion-col>
+        <ion-col size="12">
+          <h6 class="tituloarquivo"><b>TABELA DE VENDAS</b></h6>
+          <h4><a href="" class="linkdownload"> <ion-icon name="archive"></ion-icon> Tabela de disponibilidade</a></h4><br>
+        </ion-col>
+        <ion-col size="12">
+            <h6 class="tituloarquivo"><b>MATERIAL DE DIVULGAÇÃO</b></h6>
+            <h4><a href="" class="linkdownload"> <ion-icon name="archive"></ion-icon> Folde de apresentação</a></h4><br>
+          </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <span class="compartilharrodape"> Compartilhar 
+            <a href=""><ion-icon class="iconcompartilharrodape" name="logo-whatsapp"></ion-icon> </a> 
+            <a href=""><ion-icon class="iconcompartilharrodape" name="mail"></ion-icon></a>
+          </span>
+        </ion-col>
+      </ion-row>
+
+
+
+</ion-content>

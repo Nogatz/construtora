@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+.titlepg
+{
+    background-color:#d12226;
+    color: #FFF;
+    font-family: 'FontePasqualotto', Arial;
+}
+ion-header
+{
+    --ion-background-color: #D12226;
+}
+ion-menu-button
+{
+        color: #FFF;
+}
+.textocontato{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'FontePasqualotto', Arial;
+    // font-family: 'Libre Baskerville', serif;
+}
+
+.textocontatoex{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+    font-size: 14px;
+}
+.contatotitulo{
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+}
+.contatotel{
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+    margin-top: 4px;
+    margin-bottom: 4px;
+} 
+.contatoemail{
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+    margin-top: 4px;
+    margin-bottom: 4px;
+} 
+.contatoende1{
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.contatoende2{
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.contatoende3{
+    color: #a9a4a4;
+    font-family: 'FontePasqualotto', Arial;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.buttoncontato{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    background: #d12226;
+    color: #FFF;
+}
+.inputcontato{
+    border: 1px solid #bebebe;
+    padding: 5px !important;
+    margin: 10px 0px;
+    border-radius: 2px;
+}
+.inputcontatoselect{
+    border: 1px solid #bebebe;
+    padding: 15px 6px !important;
+    margin: 10px 0px;
+    border-radius: 2px;
+}
+.espacofinal{
+    height: 40px;
+}
+.contatotitulonome{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

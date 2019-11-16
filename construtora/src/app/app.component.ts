@@ -12,34 +12,30 @@ export class AppComponent {
   public appPages = [
     {
       title: 'Institucional',
-      url: '/institucional',
-      icon: 'person'
+      url: '/institucional'
     },
     {
       title: 'Empreendimentos',
-      url: '/empreendimentos',
-      icon: 'stats'
+      url: '/empreendimentos'
     },
     {
       title: 'Imóveis Terceiros',
-      url: '/imoveis-terceiros',
-      icon: 'podium'
+      url: '/imoveis-terceiros'
     },
     {
       title: 'Contatos',
-      url: '/contatos',
-      icon: 'call'
-    },
-    {
-      title: 'Home',
-      url: '/home',
-      icon: 'home'
-    },
-    {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    }
+      url: '/contatos'
+    }//,
+    // {
+    //   title: 'Home',
+    //   url: '/home',
+    //   icon: 'home'
+    // },
+    // {
+    //   title: 'List',
+    //   url: '/list',
+    //   icon: 'list'
+    // }
   ];
 
   constructor(

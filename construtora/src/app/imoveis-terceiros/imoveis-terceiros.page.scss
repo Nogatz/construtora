@@ -1,0 +1,66 @@
+.titlepg
+{
+    background-color:#d12226;
+    color: #FFF;
+}
+ion-header
+{
+    --ion-background-color: #D12226;
+}
+ion-menu-button
+{
+        color: #FFF;
+}
+.inputempreendimentoselect{
+    border: .5px solid #bebebe;
+    margin: 15px 26px;
+    border-radius: 5px;
+    font-family: 'FontePasqualotto', Arial;
+}
+.statusemp{
+    position: absolute;
+    background: #979797;
+    margin-top: -34px;
+    height: 30px;
+    padding: 6px 9px;
+    color: #FFF;
+    right: 1px;
+    font-size: 14px;
+    z-index: 999 !important;
+    font-family: 'FontePasqualotto', Arial;
+    margin-bottom: 0px;
+}
+.textoempcity{
+    margin-top: 0px;
+    padding-left: 10%;
+    color: #bebebe;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-family: 'FontePasqualotto', Arial;
+}
+.spancity{
+    color: #f00;
+}
+.linkempreendimento{
+    text-decoration: none;
+}
+.textoempnome{
+    padding-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 20px;
+    font-family: 'FontePasqualotto', Arial;
+}
+.textoempend{
+    margin-top: 0px;
+    padding-left: 10%;
+    color: #bebebe;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-family: 'FontePasqualotto', Arial;
+}
+
+.itememp{
+    margin: 10px 0px;
+}
